@@ -1,0 +1,132 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@media (min-width: 768px){
+   
+    .navbar-default {
+        background-color: #ffffff; 
+        border-bottom:solid 5px #000;
+        padding-bottom: 20px;
+    }
+}
+.navbar-default .navbar-nav>li>a {
+    color: #12926F;
+    font-size: 16pxpx;
+    font-weight: 500;
+}
+
+.center-div{
+    text-align: center;
+    padding: 16vh;
+}
+.right-div{
+    text-align: right;
+    padding: 25vh;
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+.banner-item-01 {
+	background-image: url(assets/images/slider-image-1-1920x600.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.btn-p{
+    background-color: #12926F;
+    border-color: #12926F;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+  .card{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    padding: 35% 0 !important;
+  }
+
+  .mat-checkbox-checked > .mat-checkbox-layout > .mat-checkbox-label > .mat-card{
+      background-color: #ccc;
+  }
+
+  .mat-checkbox-inner-container{
+      display: none !important;
+  }
+
+  .ck-box-card{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+
+  .headblock > h1{
+      font-size: 32px;
+      text-align: center;
+      font-weight: 500;
+      padding-top: 20px;
+      color: #12926F;
+  }
+
+ 
+
+  .card-button{
+    background-color: #f2f2f2;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.mat-card {
+    background-color: transparent;
+}
+.mat-card:not([class*=mat-elevation-z]){
+    box-shadow: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+
+.card-button:active{
+    background-color:#ccc;
+}
+
+.card{
+    border: solid 1px #ccc;
+}
+.mat-radio-container{
+    display: none !important;
+}
+.mat-radio-checked > .mat-radio-label > .mat-radio-label-content > .card{
+    background-color: #ccc;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: none; 
+}
+.navbar-default {
+    background-color: #fff !important;
+    border-bottom: #000 solid 3px !important;
+}

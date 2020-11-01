@@ -1,0 +1,43 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="headblock">
+                <h1>Services</h1>
+            </div>
+            <mat-radio-group
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group"
+            [(ngModel)]="servicesizeDetails.Services">
+    
+            <div class="col-md-4" *ngFor="let season of seasons">
+                
+                <mat-radio-button class="example-radio-button ck-box-card" [value]="season">
+                    
+                    <mat-card class="card"> <img src="" alt=""> {{season}}</mat-card> 
+                </mat-radio-button>
+                
+            </div>
+    </mat-radio-group>
+
+    
+            
+            
+        </div>
+    </div>
+   
+</div>
+<div class="banner-item-01">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+    
+            <div class="center-div">
+                <input class="btn-lg btn-p" type="button" value="Continue" routerLink="/Carsize" />
+            </div>
+            
+          </div>
+        </div>
+    </div>
+</div> 
